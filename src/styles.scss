@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+$rules : 'Playfair Display', serif;
+
+h1{
+    font-family: $rules;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<div class = 'heading'>
+<h1> Github User Information </h1>
+</div>
+
+
+<body>
+
+    <!--<button (click)='counter()'> ADD </button>
+    <p> {{count}} </p>
+    <br>-->
+    
+    <h3> Enter Username </h3>
+    <input [(ngModel)] = "username" type = "text"  name = "user" >
+    <button (click) = 'getData()'> Display Info </button>
+    <br>
+    <br>
+    <div class = "box"> 
+        <div class = 'avatar_image'>
+        <img src = {{avatar}} width = '300' height = '321'> 
+        </div>
+        <br>
+        <br>
+        <p> Status = {{type}}</p>
+        <p> Login = {{name}}</p>
+        <p> Email = {{email}}</p>
+        <p> Location = {{location}}</p>
+        <p> Twitter Username = {{twitterusername}}</p>
+    </div>
+  
+  </body>
+
+
+  <footer>
+    <nav>
+    <details>
+    <summary> &copy; Saurabh Gaglani 2021 </summary> 
+    <p> Created using angular.js </p>
+    <p>Email: <a href= "mailto:saurabhgaglani100@gmail.com">me@email.com</a> </p>
+    </details>
+    </nav>
+    </footer>
+
